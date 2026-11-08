@@ -4,14 +4,14 @@
 <body class="game-mode" data-page-track="monetization">
 
 <div id="office-game">
- <div id="world" role="application" aria-label="이연서의 3D 오피스. 방향키 또는 WASD로 이동하고 노트북이나 휴식공간을 선택하세요." tabindex="0"></div>
+ <div id="world" role="application" aria-label="이연서의 3D 오피스. 바닥을 클릭해 이동하고 노트북이나 휴식공간을 선택하세요." tabindex="0"></div>
  <div class="game-top"><a href="#" class="game-logo" aria-label="오피스 홈"><b>Y<span>↗</span></b><div>YEONSEO'S OFFICE<small>일하는 나, 플레이하는 나.</small></div></a><div class="world-clock"><span class="live-dot"></span> KAKAO GAMES <span class="clock-divider">/</span> <span data-track-label></span></div><details class="dl-menu"><summary class="hud-btn">포트폴리오 · 이력서 받기 ↓</summary><div class="dl-list"><a data-download="portfolio"><b>포트폴리오 PDF</b><small>프로젝트 4개 · 7p</small></a><a data-download="resume"><b>이력서 · 경력기술서 PDF</b><small>5p</small></a></div></details></div>
  <div class="welcome"><span class="mini-label">WELCOME, PLAYER!</span><h1>연서의 오피스에<br>오신 걸 환영해요.</h1><p>노트북에는 일한 기록이,<br>휴게실에는 플레이한 기록이 있어요.</p></div>
  <div id="quest" class="quest"><span>오늘의 탐색</span><div><i id="work-check"></i> 노트북에서 프로젝트 살펴보기</div><div><i id="rest-check"></i> 휴게실에서 구매 이야기 듣기</div></div>
  <div id="world-labels"><button id="desk-label" class="world-label" data-destination="work"><span class="pin-icon">▰</span><b>연서의 노트북<small>PROJECTS · 4개의 실무 기록</small></b><span>↗</span></button><button id="rest-label" class="world-label blue-label" data-destination="rest"><span class="pin-icon">✣</span><b>잠깐, 게임 한 판<small>PLAYER NOTE · 스킨 구매 관찰</small></b><span>↗</span></button></div>
  <div class="character-bubble" id="character-bubble">이연서 <span>PLAYER 01</span></div>
  <div id="move-hint" class="move-hint" aria-live="polite">바닥을 클릭하면 캐릭터가 이동해요.</div>
- <div class="game-bottom"><div class="player-badge"><span class="mini-face">●‿●</span><div><strong>이연서</strong><small id="player-state">오피스 탐색 중</small></div></div><div class="room-nav"><button data-destination="work"><span>01</span> 업무 공간</button><button data-destination="rest"><span>02</span> 휴식 공간</button><button id="profile-open"><span>03</span> 프로필</button></div><div class="control-note"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>이동</span><kbd>E</kbd><span>상호작용</span></div></div>
+ <div class="game-bottom"><div class="player-badge"><span class="mini-face">●‿●</span><div><strong>이연서</strong><small id="player-state">오피스 탐색 중</small></div></div><div class="room-nav"><button data-destination="work"><span>01</span> 업무 공간</button><button data-destination="rest"><span>02</span> 휴식 공간</button><button id="profile-open"><span>03</span> 프로필</button></div></div>
  <div class="mobile-pad" aria-label="캐릭터 이동"><button data-key="ArrowUp" aria-label="위로 이동">↑</button><div><button data-key="ArrowLeft" aria-label="왼쪽으로 이동">←</button><button data-key="ArrowDown" aria-label="아래로 이동">↓</button><button data-key="ArrowRight" aria-label="오른쪽으로 이동">→</button></div></div>
  <aside id="office-panel" aria-labelledby="panel-title" hidden><div class="panel-bar"><span id="panel-caption">YEONSEO'S LAPTOP</span><button id="panel-close" aria-label="패널 닫기">✕</button></div><div id="panel-body"></div></aside>
  <div id="world-fallback" hidden><h2>오피스를 불러오지 못했어요.</h2><p>아래 메뉴에서 모든 기록을 바로 볼 수 있어요.</p><button data-destination="work">프로젝트 보기</button><button data-destination="rest">구매 이야기 보기</button></div>
